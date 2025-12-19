@@ -1,0 +1,24 @@
+{
+  "name": "shubh.cv",
+  "version": "1.0.0",
+  "description": "This is a minimal, responsive static personal website scaffold. Use it to show your name, photo, skills, projects and a download link for your resume.",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -p 3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shubhboda/shubh.cv.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shubhboda/shubh.cv/issues"
+  },
+  "homepage": "https://github.com/shubhboda/shubh.cv#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}

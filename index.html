@@ -1,0 +1,78 @@
+ <!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Your Name — CV</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-grid">
+        <div class="profile">
+          <img src="assets/janvi.jpeg" alt="Janvi Viroja photo" class="avatar" id="avatar" />
+        </div>
+        <div class="intro">
+          <h1 id="name">Your Name</h1>
+          <p id="title">Your Title — e.g., Full-stack Developer</p>
+          <p id="location">Baroda, Gujarat</p>
+          <p id="email">Email: janvip371@gmail.com</p>
+          <p id="meta">DOB: 10/11/2005 • University: Parul University</p>
+          <div class="actions">
+            <a id="resumeLink" href="#" class="btn" download>Download CV</a>
+            <button id="contactBtn" class="btn ghost">Contact</button>
+          </div>
+          <div class="socials" aria-label="social links">
+            <a id="githubLink" href="#" target="_blank" rel="noopener">GitHub</a>
+            <a id="linkedinLink" href="#" target="_blank" rel="noopener">LinkedIn</a>
+            <a id="emailBtn" href="#">Email</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+      <section id="about">
+        <h2>About</h2>
+        <p id="aboutText">A short paragraph about you. Replace this with a concise summary of your background, interests and what you're looking for.</p>
+      </section>
+
+      <section id="skills">
+        <h2>Skills</h2>
+        <div class="split">
+          <div>
+            <h3 class="muted">Frontend</h3>
+            <div class="chips" id="skillsFrontend"></div>
+            <h3 class="muted" style="margin-top:12px">Backend</h3>
+            <div class="chips" id="skillsBackend"></div>
+          </div>
+          <div>
+            <h3 class="muted">Languages & DSA</h3>
+            <div class="chips" id="skillsLang"></div>
+            <h3 class="muted" style="margin-top:60px">Databases & Cloud</h3>
+            <div class="chips" id="skillsInfra"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience">
+        <h2>Experience</h2>
+        <div id="experienceList" class="cards">
+          <!-- JS will inject experience cards -->
+        </div>
+      </section>
+
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p></p>
+      </div>
+    </footer>
+
+
+
+    <script src="js/script.js?v=3"></script>
+  </body>
+</html>
